@@ -2,7 +2,7 @@
 
 **HardNIX** is a Linux hardening script designed to improve system security through configurable levels of hardening. It generates detailed HTML reports, performs system and kernel hardening, configures firewall and PAM policies, and applies best practices for account and file security.  
 
-> **Note:** This script has only been tested on Ubuntu. Users must carefully adapt the script to their environment, infrastructure, and specific needs before using it in production.
+> **Note:** This script has only been tested on Ubuntu. Users must carefully adapt the script to their environment, infrastructure, and specific needs.
 
 ---
 
@@ -11,7 +11,7 @@
 The script provides four levels of hardening:
 
 - **Minimal:** Basic security measures for test environments or low-risk workstations.  
-- **Intermediate:** Additional hardening for standard servers and production workstations.  
+- **Intermediate:** Additional hardening for standard servers. 
 - **Reinforced:** Stronger hardening for sensitive systems handling critical data.  
 - **Elevated:** Maximum security, advanced auditing, and intrusion detection for high-risk systems.  
 
@@ -59,12 +59,12 @@ bash hardnix.sh -m <hardening_level>
 
 ## Important Notes
 
-- Users must review and adapt this script to match their own infrastructure and security requirements.  
+- Users **must review and adapt this script** to match their own infrastructure and security requirements.  
 - This script makes **system-wide changes**, including kernel and network parameters, which may impact functionality.  
-- Always back up your system and test in a safe environment before deploying in production.  
+- Always back up your system and test in a safe environment.
 
 ---
 
 ## Disclaimer
 
-This script is provided for **educational purposes only**. The author assumes **no responsibility** for any damage, data loss, or system malfunction caused by its use. Use at your own risk.
+This script is provided for test and **educational purposes only**. The author assumes **no responsibility** for any damage, data loss, or system malfunction caused by its use.
